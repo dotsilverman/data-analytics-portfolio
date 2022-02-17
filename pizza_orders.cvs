@@ -1,0 +1,200 @@
+0,white,balsamic,ricotta,"['meatballs', 'olives']",9.0
+1,red,balsamic,mozzarella,"['peppers', 'arugula', 'olives', 'sausage', 'pepperoni', 'mushrooms', 'meatballs']",11.5
+2,pesto,olive oil,feta,[],8.0
+3,pesto,balsamic,mozzarella,"['pepperoni', 'olives', 'sausage', 'peppers', 'arugula']",10.5
+4,white,balsamic,mozzarella,"['arugula', 'prosciutto']",9.0
+5,red,olive oil,feta,"['pepperoni', 'prosciutto']",9.0
+6,pesto,balsamic,feta,['meatballs'],8.5
+7,pesto,balsamic,feta,"['prosciutto', 'mushrooms', 'sausage', 'olives']",10.0
+8,red,olive oil,mozzarella,"['sausage', 'arugula', 'olives']",9.5
+9,red,olive oil,mozzarella,"['arugula', 'mushrooms', 'pepperoni', 'prosciutto', 'meatballs']",10.5
+10,pesto,olive oil,feta,"['peppers', 'arugula', 'prosciutto', 'pepperoni', 'meatballs']",10.5
+11,white,olive oil,ricotta,"['sausage', 'mushrooms', 'arugula', 'olives', 'meatballs']",10.5
+12,red,olive oil,ricotta,['meatballs'],8.5
+13,pesto,balsamic,mozzarella,"['sausage', 'meatballs', 'pepperoni', 'mushrooms']",10.0
+14,white,olive oil,feta,"['olives', 'peppers', 'sausage', 'prosciutto', 'meatballs', 'mushrooms']",11.0
+15,white,olive oil,mozzarella,"['arugula', 'prosciutto', 'mushrooms', 'meatballs', 'sausage', 'pepperoni', 'olives']",11.5
+16,white,balsamic,mozzarella,['olives'],8.5
+17,red,balsamic,feta,['peppers'],8.5
+18,pesto,olive oil,feta,[],8.0
+19,red,olive oil,mozzarella,['pepperoni'],8.5
+20,white,olive oil,feta,"['mushrooms', 'meatballs', 'prosciutto', 'olives', 'sausage', 'arugula', 'pepperoni']",11.5
+21,pesto,olive oil,mozzarella,"['peppers', 'mushrooms', 'meatballs']",9.5
+22,red,balsamic,ricotta,[],8.0
+23,red,balsamic,feta,"['mushrooms', 'olives', 'peppers', 'pepperoni', 'arugula', 'sausage']",11.0
+24,red,balsamic,mozzarella,"['olives', 'peppers', 'prosciutto', 'mushrooms', 'pepperoni']",10.5
+25,red,balsamic,mozzarella,"['peppers', 'pepperoni', 'mushrooms', 'prosciutto', 'arugula']",10.5
+26,pesto,balsamic,feta,"['olives', 'peppers', 'mushrooms', 'arugula', 'meatballs', 'pepperoni', 'sausage']",11.5
+27,pesto,olive oil,feta,"['prosciutto', 'peppers', 'olives', 'meatballs', 'arugula']",10.5
+28,pesto,olive oil,feta,"['peppers', 'prosciutto', 'pepperoni', 'mushrooms']",10.0
+29,red,olive oil,mozzarella,"['arugula', 'olives', 'peppers', 'sausage', 'mushrooms']",10.5
+30,white,balsamic,ricotta,"['mushrooms', 'arugula', 'prosciutto', 'sausage']",10.0
+31,pesto,olive oil,ricotta,"['mushrooms', 'peppers', 'pepperoni', 'prosciutto', 'arugula']",10.5
+32,pesto,balsamic,mozzarella,['prosciutto'],8.5
+33,red,balsamic,mozzarella,"['peppers', 'arugula', 'prosciutto', 'sausage', 'olives', 'mushrooms', 'pepperoni']",11.5
+34,pesto,olive oil,ricotta,"['pepperoni', 'olives', 'meatballs', 'sausage', 'peppers']",10.5
+35,pesto,balsamic,ricotta,"['meatballs', 'arugula', 'prosciutto']",9.5
+36,white,balsamic,ricotta,"['sausage', 'arugula', 'prosciutto', 'pepperoni', 'peppers', 'mushrooms', 'meatballs']",11.5
+37,pesto,olive oil,feta,"['peppers', 'mushrooms', 'meatballs', 'prosciutto', 'arugula', 'olives', 'pepperoni']",11.5
+38,red,balsamic,feta,"['prosciutto', 'peppers', 'pepperoni', 'arugula', 'meatballs']",10.5
+39,red,balsamic,ricotta,"['prosciutto', 'pepperoni', 'meatballs', 'olives', 'arugula', 'peppers']",11.0
+40,pesto,balsamic,feta,"['olives', 'pepperoni', 'sausage', 'prosciutto', 'arugula', 'peppers']",11.0
+41,red,balsamic,mozzarella,"['mushrooms', 'arugula', 'prosciutto', 'olives', 'meatballs']",10.5
+42,red,olive oil,feta,"['meatballs', 'mushrooms', 'peppers']",9.5
+43,red,olive oil,ricotta,"['olives', 'arugula', 'meatballs']",9.5
+44,pesto,balsamic,ricotta,['prosciutto'],8.5
+45,pesto,olive oil,feta,"['sausage', 'mushrooms', 'olives', 'peppers', 'arugula', 'meatballs']",11.0
+46,red,olive oil,feta,['arugula'],8.5
+47,pesto,balsamic,ricotta,"['pepperoni', 'meatballs']",9.0
+48,pesto,olive oil,mozzarella,[],8.0
+49,pesto,olive oil,feta,"['arugula', 'sausage', 'pepperoni']",9.5
+50,white,olive oil,feta,"['meatballs', 'prosciutto', 'olives']",9.5
+51,pesto,olive oil,mozzarella,"['meatballs', 'sausage', 'mushrooms', 'pepperoni', 'peppers', 'arugula']",11.0
+52,white,balsamic,feta,['olives'],8.5
+53,white,balsamic,ricotta,"['prosciutto', 'arugula', 'meatballs', 'pepperoni', 'peppers']",10.5
+54,white,balsamic,ricotta,"['sausage', 'arugula', 'peppers', 'prosciutto', 'pepperoni']",10.5
+55,white,balsamic,mozzarella,"['pepperoni', 'arugula', 'olives', 'sausage', 'meatballs', 'prosciutto']",11.0
+56,white,balsamic,feta,"['prosciutto', 'meatballs', 'mushrooms', 'sausage', 'olives']",10.5
+57,red,balsamic,feta,"['pepperoni', 'peppers', 'arugula', 'sausage', 'meatballs', 'mushrooms', 'olives']",11.5
+58,red,balsamic,ricotta,"['peppers', 'meatballs', 'mushrooms', 'arugula']",10.0
+59,white,olive oil,ricotta,"['pepperoni', 'meatballs', 'arugula', 'olives', 'peppers', 'prosciutto', 'mushrooms']",11.5
+60,white,balsamic,mozzarella,"['meatballs', 'pepperoni']",9.0
+61,white,balsamic,feta,"['meatballs', 'olives', 'peppers', 'sausage', 'mushrooms', 'arugula']",11.0
+62,pesto,olive oil,mozzarella,"['peppers', 'pepperoni', 'arugula']",9.5
+63,white,balsamic,feta,"['prosciutto', 'olives']",9.0
+64,white,olive oil,mozzarella,['arugula'],8.5
+65,red,balsamic,mozzarella,['meatballs'],8.5
+66,pesto,olive oil,ricotta,"['pepperoni', 'mushrooms', 'meatballs', 'peppers', 'prosciutto', 'arugula']",11.0
+67,pesto,balsamic,ricotta,['mushrooms'],8.5
+68,white,olive oil,feta,"['olives', 'arugula']",9.0
+69,white,balsamic,mozzarella,"['pepperoni', 'meatballs', 'mushrooms', 'peppers', 'sausage']",10.5
+70,red,olive oil,ricotta,['mushrooms'],8.5
+71,pesto,balsamic,mozzarella,"['olives', 'sausage', 'arugula', 'peppers', 'meatballs', 'prosciutto']",11.0
+72,red,balsamic,feta,"['pepperoni', 'arugula', 'sausage', 'meatballs', 'mushrooms', 'prosciutto', 'peppers']",11.5
+73,red,olive oil,ricotta,['peppers'],8.5
+74,pesto,olive oil,feta,"['mushrooms', 'pepperoni', 'olives', 'peppers', 'arugula']",10.5
+75,white,balsamic,ricotta,"['prosciutto', 'pepperoni', 'peppers', 'arugula', 'mushrooms', 'olives']",11.0
+76,red,olive oil,feta,"['sausage', 'peppers', 'olives', 'arugula', 'prosciutto']",10.5
+77,white,balsamic,feta,"['pepperoni', 'arugula', 'mushrooms', 'olives', 'meatballs', 'sausage']",11.0
+78,red,balsamic,mozzarella,"['peppers', 'olives', 'arugula', 'sausage']",10.0
+79,white,olive oil,mozzarella,"['peppers', 'mushrooms', 'meatballs', 'sausage', 'prosciutto', 'olives', 'pepperoni']",11.5
+80,pesto,olive oil,ricotta,"['arugula', 'mushrooms', 'prosciutto', 'sausage', 'olives']",10.5
+81,pesto,olive oil,ricotta,"['peppers', 'olives', 'prosciutto']",9.5
+82,red,olive oil,feta,"['peppers', 'prosciutto', 'mushrooms', 'olives']",10.0
+83,white,olive oil,mozzarella,"['prosciutto', 'meatballs', 'sausage', 'mushrooms', 'pepperoni']",10.5
+84,pesto,olive oil,mozzarella,"['peppers', 'olives', 'arugula', 'mushrooms', 'prosciutto', 'meatballs', 'sausage']",11.5
+85,white,balsamic,feta,"['sausage', 'prosciutto', 'arugula']",9.5
+86,red,balsamic,mozzarella,"['meatballs', 'peppers', 'sausage', 'pepperoni', 'olives', 'mushrooms']",11.0
+87,white,balsamic,feta,"['arugula', 'olives', 'pepperoni']",9.5
+88,white,balsamic,mozzarella,"['peppers', 'pepperoni', 'prosciutto']",9.5
+89,white,olive oil,feta,"['olives', 'sausage', 'arugula', 'meatballs']",10.0
+90,red,balsamic,mozzarella,"['olives', 'meatballs', 'sausage', 'arugula', 'mushrooms', 'peppers']",11.0
+91,pesto,olive oil,feta,"['sausage', 'olives']",9.0
+92,white,balsamic,feta,[],8.0
+93,pesto,olive oil,feta,"['olives', 'pepperoni', 'meatballs', 'peppers', 'mushrooms', 'sausage', 'arugula']",11.5
+94,white,balsamic,feta,"['mushrooms', 'meatballs', 'sausage', 'prosciutto', 'olives']",10.5
+95,pesto,balsamic,feta,"['pepperoni', 'olives', 'peppers', 'meatballs']",10.0
+96,white,balsamic,ricotta,"['pepperoni', 'arugula', 'mushrooms']",9.5
+97,white,olive oil,ricotta,"['mushrooms', 'pepperoni']",9.0
+98,white,olive oil,ricotta,"['sausage', 'arugula', 'olives', 'meatballs', 'prosciutto', 'peppers']",11.0
+99,red,balsamic,ricotta,"['mushrooms', 'peppers', 'pepperoni', 'meatballs']",10.0
+100,white,balsamic,ricotta,['prosciutto'],8.5
+101,pesto,olive oil,mozzarella,"['pepperoni', 'mushrooms']",9.0
+102,pesto,balsamic,feta,"['peppers', 'mushrooms', 'pepperoni', 'sausage', 'arugula', 'olives']",11.0
+103,pesto,balsamic,ricotta,[],8.0
+104,white,olive oil,ricotta,"['sausage', 'prosciutto']",9.0
+105,white,olive oil,mozzarella,"['meatballs', 'mushrooms', 'olives', 'peppers']",10.0
+106,white,olive oil,mozzarella,"['arugula', 'pepperoni', 'olives', 'sausage', 'mushrooms']",10.5
+107,pesto,balsamic,mozzarella,"['arugula', 'peppers', 'sausage', 'prosciutto', 'olives']",10.5
+108,pesto,balsamic,feta,[],8.0
+109,white,olive oil,ricotta,"['prosciutto', 'meatballs', 'olives', 'arugula', 'sausage', 'peppers']",11.0
+110,white,olive oil,ricotta,"['arugula', 'olives', 'peppers']",9.5
+111,pesto,balsamic,feta,"['meatballs', 'olives', 'arugula', 'mushrooms', 'peppers', 'sausage', 'pepperoni']",11.5
+112,pesto,balsamic,mozzarella,"['peppers', 'olives', 'arugula', 'meatballs', 'sausage']",10.5
+113,pesto,olive oil,mozzarella,"['arugula', 'sausage', 'olives', 'peppers', 'prosciutto', 'meatballs', 'mushrooms']",11.5
+114,pesto,balsamic,feta,"['mushrooms', 'sausage', 'arugula']",9.5
+115,red,balsamic,mozzarella,['pepperoni'],8.5
+116,pesto,olive oil,ricotta,"['arugula', 'sausage', 'peppers', 'pepperoni', 'mushrooms', 'prosciutto', 'olives']",11.5
+117,white,balsamic,feta,['pepperoni'],8.5
+118,red,olive oil,mozzarella,['mushrooms'],8.5
+119,pesto,olive oil,mozzarella,"['arugula', 'sausage']",9.0
+120,white,balsamic,mozzarella,['peppers'],8.5
+121,pesto,balsamic,feta,[],8.0
+122,red,olive oil,ricotta,[],8.0
+123,white,balsamic,feta,"['mushrooms', 'peppers', 'arugula', 'pepperoni', 'sausage', 'meatballs', 'prosciutto']",11.5
+124,white,olive oil,ricotta,['sausage'],8.5
+125,white,olive oil,feta,['olives'],8.5
+126,pesto,balsamic,feta,"['pepperoni', 'olives', 'arugula']",9.5
+127,pesto,olive oil,mozzarella,['pepperoni'],8.5
+128,red,balsamic,feta,"['sausage', 'olives']",9.0
+129,red,olive oil,mozzarella,"['pepperoni', 'peppers', 'olives', 'meatballs', 'mushrooms']",10.5
+130,pesto,olive oil,ricotta,"['meatballs', 'peppers', 'mushrooms', 'arugula', 'pepperoni', 'sausage']",11.0
+131,pesto,balsamic,mozzarella,['sausage'],8.5
+132,pesto,olive oil,mozzarella,"['sausage', 'prosciutto', 'olives', 'pepperoni', 'meatballs', 'arugula']",11.0
+133,white,balsamic,feta,"['arugula', 'peppers', 'mushrooms']",9.5
+134,white,olive oil,ricotta,['olives'],8.5
+135,white,balsamic,ricotta,"['meatballs', 'peppers']",9.0
+136,red,balsamic,feta,"['arugula', 'meatballs', 'peppers', 'sausage', 'prosciutto', 'mushrooms', 'pepperoni']",11.5
+137,white,balsamic,feta,"['sausage', 'arugula', 'olives', 'pepperoni']",10.0
+138,white,olive oil,feta,"['olives', 'prosciutto', 'meatballs', 'peppers', 'sausage']",10.5
+139,white,balsamic,mozzarella,"['mushrooms', 'pepperoni', 'prosciutto', 'sausage', 'peppers']",10.5
+140,red,balsamic,ricotta,"['pepperoni', 'arugula', 'olives', 'sausage', 'prosciutto', 'mushrooms', 'peppers']",11.5
+141,pesto,olive oil,mozzarella,"['pepperoni', 'sausage', 'mushrooms', 'peppers', 'arugula', 'olives']",11.0
+142,red,olive oil,feta,"['arugula', 'meatballs']",9.0
+143,red,olive oil,feta,"['prosciutto', 'olives', 'peppers', 'meatballs', 'mushrooms', 'pepperoni', 'arugula']",11.5
+144,white,balsamic,mozzarella,['meatballs'],8.5
+145,red,olive oil,feta,"['arugula', 'peppers']",9.0
+146,pesto,olive oil,feta,"['mushrooms', 'olives', 'arugula', 'meatballs', 'peppers']",10.5
+147,red,balsamic,mozzarella,"['sausage', 'pepperoni', 'peppers']",9.5
+148,white,olive oil,mozzarella,"['arugula', 'sausage', 'peppers', 'pepperoni']",10.0
+149,white,balsamic,mozzarella,"['sausage', 'arugula']",9.0
+150,pesto,olive oil,mozzarella,"['sausage', 'mushrooms', 'arugula', 'peppers']",10.0
+151,red,olive oil,feta,"['meatballs', 'mushrooms', 'olives', 'arugula']",10.0
+152,pesto,balsamic,ricotta,"['prosciutto', 'meatballs']",9.0
+153,red,balsamic,ricotta,"['sausage', 'peppers', 'pepperoni']",9.5
+154,white,balsamic,mozzarella,"['sausage', 'pepperoni', 'olives', 'prosciutto']",10.0
+155,white,balsamic,mozzarella,"['peppers', 'sausage', 'pepperoni', 'mushrooms', 'arugula', 'prosciutto']",11.0
+156,red,balsamic,feta,"['olives', 'mushrooms', 'sausage']",9.5
+157,red,balsamic,ricotta,[],8.0
+158,red,balsamic,ricotta,"['pepperoni', 'sausage', 'meatballs', 'prosciutto']",10.0
+159,red,olive oil,feta,"['peppers', 'mushrooms', 'sausage']",9.5
+160,pesto,balsamic,mozzarella,"['pepperoni', 'arugula', 'meatballs', 'sausage', 'prosciutto', 'mushrooms', 'peppers']",11.5
+161,pesto,balsamic,feta,"['mushrooms', 'sausage']",9.0
+162,pesto,balsamic,feta,"['arugula', 'prosciutto', 'mushrooms']",9.5
+163,white,olive oil,ricotta,['olives'],8.5
+164,white,balsamic,feta,"['olives', 'arugula', 'pepperoni', 'sausage', 'prosciutto', 'mushrooms']",11.0
+165,red,balsamic,feta,"['prosciutto', 'pepperoni', 'meatballs', 'mushrooms', 'sausage']",10.5
+166,pesto,olive oil,mozzarella,"['mushrooms', 'prosciutto', 'arugula', 'meatballs', 'sausage', 'pepperoni', 'olives']",11.5
+167,white,balsamic,mozzarella,"['sausage', 'meatballs', 'peppers', 'mushrooms', 'olives', 'prosciutto', 'arugula']",11.5
+168,pesto,balsamic,ricotta,"['pepperoni', 'olives', 'mushrooms', 'sausage', 'meatballs']",10.5
+169,pesto,olive oil,feta,"['prosciutto', 'pepperoni', 'olives', 'arugula', 'meatballs']",10.5
+170,white,olive oil,feta,"['sausage', 'meatballs', 'olives', 'peppers', 'arugula']",10.5
+171,pesto,olive oil,feta,"['prosciutto', 'olives', 'sausage', 'peppers', 'meatballs']",10.5
+172,pesto,balsamic,mozzarella,"['mushrooms', 'peppers', 'meatballs', 'arugula', 'olives', 'sausage', 'prosciutto']",11.5
+173,white,balsamic,mozzarella,"['peppers', 'mushrooms', 'arugula', 'prosciutto', 'sausage']",10.5
+174,white,balsamic,ricotta,[],8.0
+175,white,olive oil,mozzarella,[],8.0
+176,white,balsamic,feta,"['olives', 'sausage']",9.0
+177,pesto,balsamic,ricotta,"['mushrooms', 'arugula', 'sausage', 'prosciutto']",10.0
+178,pesto,olive oil,feta,"['peppers', 'arugula', 'prosciutto', 'olives', 'meatballs']",10.5
+179,white,olive oil,ricotta,"['olives', 'mushrooms', 'meatballs', 'arugula', 'pepperoni']",10.5
+180,white,balsamic,ricotta,[],8.0
+181,white,olive oil,ricotta,"['sausage', 'olives', 'meatballs', 'peppers']",10.0
+182,white,olive oil,ricotta,['peppers'],8.5
+183,pesto,balsamic,feta,"['olives', 'arugula', 'prosciutto', 'pepperoni', 'mushrooms', 'sausage']",11.0
+184,pesto,balsamic,ricotta,"['peppers', 'arugula', 'mushrooms', 'meatballs', 'prosciutto', 'sausage', 'pepperoni']",11.5
+185,pesto,balsamic,feta,[],8.0
+186,red,olive oil,feta,"['pepperoni', 'olives', 'sausage', 'mushrooms', 'peppers', 'prosciutto', 'arugula']",11.5
+187,white,balsamic,mozzarella,['mushrooms'],8.5
+188,pesto,balsamic,feta,"['arugula', 'peppers', 'meatballs']",9.5
+189,white,olive oil,feta,"['pepperoni', 'mushrooms', 'peppers', 'meatballs']",10.0
+190,red,olive oil,ricotta,"['mushrooms', 'sausage', 'peppers']",9.5
+191,pesto,balsamic,ricotta,"['olives', 'sausage', 'meatballs', 'prosciutto', 'peppers']",10.5
+192,red,balsamic,ricotta,"['prosciutto', 'meatballs', 'peppers', 'pepperoni']",10.0
+193,white,balsamic,ricotta,"['meatballs', 'prosciutto']",9.0
+194,pesto,olive oil,mozzarella,"['arugula', 'mushrooms', 'prosciutto', 'olives']",10.0
+195,white,balsamic,mozzarella,['pepperoni'],8.5
+196,white,olive oil,mozzarella,"['meatballs', 'arugula', 'mushrooms']",9.5
+197,white,balsamic,ricotta,[],8.0
+198,red,balsamic,mozzarella,"['pepperoni', 'prosciutto', 'olives']",9.5
+199,white,olive oil,ricotta,"['mushrooms', 'meatballs', 'sausage', 'pepperoni', 'olives', 'peppers', 'arugula']",11.5
