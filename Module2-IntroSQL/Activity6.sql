@@ -46,7 +46,7 @@ SELECT * FROM world.country
 WHERE GNP > (SELECT AVG(GNP) FROM world.country) 
 AND surfacearea < 15000;
 
-# task 3 - find the nation with the largest population 
+# task 3 - find the nation with the largest population  
 SELECT name FROM world.country 
 WHERE population = (SELECT MAX(population) FROM world.country); 
 
