@@ -1,0 +1,119 @@
+# Sakila Database Questions 
+# Need help with #8 & #9
+
+# Q1) How many distinct actor last names are there? 
+SELECT COUNT(DISTINCT last_name) FROM sakila.actor;
+
+# ANSWER: 121 distinct last names 
+
+# --------------------------------------------------------------------------------------------------
+# Q2) Which last names are duplicates? Note: COUNT(last_name) is uneeded in the SELECT
+# statement, but useful for double checking myself.  
+SELECT last_name AS multiple_occurance, COUNT(last_name) AS occurance_count FROM sakila.actor
+GROUP BY last_name
+HAVING COUNT(last_name) > 1
+ORDER BY occurance_count DESC;
+
+# ANSWER: there's a big list... just run the script. The most common duplicate last name is Kilmer, where there are 5 duplicates.
+
+# Q2) Which last names are not duplicates? Note: COUNT(last_name) is uneeded in the SELECT
+# statement, but useful for double checking myself.  
+SELECT last_name AS single_occurance, COUNT(last_name) AS occurance_count FROM sakila.actor
+GROUP BY last_name
+HAVING COUNT(last_name) = 1;
+
+# ANSWER: there's a big list... just run the script. 
+
+# --------------------------------------------------------------------------------------------------
+# Q3) Which actor has appeared in the most films? (I think joining tables would be the way to go
+# but since we haven't officially covered that yet, I'll be trying something else.) 
+SELECT CONCAT(a.first_name, ' ', a.last_name) AS fullname from sakila.actor AS a 
+JOIN sakila.film_actor AS fa
+ON a.actor_id = fa.actor_id
+GROUP by fa.actor_id 
+ORDER BY COUNT(fa.actor_id) DESC;
+
+# ANSWER: It looks like Gina Degeneres has appeared in the most movies. (Which is confusing 
+# because I've never heard of this actor.) 
+
+# --------------------------------------------------------------------------------------------------
+# Q4) Which actor is in the most rented film? 
+SELECT CONCAT(a.first_name, ' ', a.last_name) AS actor_name, COUNT(r.inventory_id) AS total_rentals
+FROM sakila.actor AS a
+
+JOIN sakila.film_actor as fa 
+ON a.actor_id = fa.actor_id 
+
+JOIN sakila.inventory as i 
+ON fa.film_id = i.film_id
+
+JOIN sakila.rental as r 
+ON i.inventory_id = r.inventory_id 
+
+GROUP BY actor_name
+ORDER BY COUNT(r.inventory_id) DESC;
+
+# ANSWER: It looks like Susan Davis is the most rented actor 
+
+# --------------------------------------------------------------------------------------------------
+# Q5) How many films are available at each store? 
+SELECT COUNT(i.film_id) AS films_per_store 
+FROM sakila.inventory AS i
+  
+JOIN sakila.store AS s 
+ON i.store_id = s.store_id 
+
+GROUP BY s.store_id 
+ORDER BY films_per_store DESC;
+
+# ANSWER: One store has 2311 films, another has 2270 films 
+
+# --------------------------------------------------------------------------------------------------
+# Q6) How much money has each store made? 
+SELECT SUM(p.amount) AS total_money 
+FROM sakila.payment AS p
+
+JOIN sakila.staff AS sf 
+ON p.staff_id = sf.staff_id
+
+JOIN sakila.store AS sr 
+ON sf.store_id = sr.store_id 
+
+GROUP BY sr.store_id 
+ORDER BY total_money DESC;
+
+# ANSWER: One store made $33927.04, and the other made $22489.47 
+
+# --------------------------------------------------------------------------------------------------
+# Q7) List the top 5 customers, in terms of dollar amounts spen on rentals from the sakila database 
+SELECT CONCAT(c.first_name, ' ', c.last_name) AS customer_name, SUM(p.amount) as total_spent
+FROM sakila.customer AS c 
+
+JOIN sakila.payment as p 
+ON p.customer_id = c.customer_id 
+
+GROUP BY customer_name 
+ORDER BY total_spent DESC
+LIMIT 5;
+
+# --------------------------------------------------------------------------------------------------
+# Q8) What are the most popular rentals, in terms of number of times rented, in each category? 
+# Order by category descending. *Got help from Melissa on this one. 
+WITH cc as (
+SELECT f.title, c.name AS category, COUNT(r.rental_id) AS rentals 
+FROM sakila.film AS f
+JOIN sakila.film_category as fc 
+ON f.film_id = fc.film_id
+JOIN sakila.category as c 
+ON fc.category_id = c.category_id
+JOIN sakila.inventory as i 
+ON fc.film_id = i.film_id 
+JOIN sakila.rental as r 
+ON i.inventory_id = r.inventory_id
+GROUP BY c.name, f.title)
+
+SELECT cc.title, cc.category, cc.rentals FROM cc AS a 
+JOIN cc
+ON cc.title = a.title 
+WHERE a.rentals = (SELECT MAX(rentals) from cc where a.category = cc.category) 
+ORDER BY a.category desc;
