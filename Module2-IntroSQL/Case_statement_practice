@@ -1,0 +1,26 @@
+# Example of case statements from Unit 7. Queries are based on the mysql sakila database.
+
+# pg 17 in powerpoint 
+SELECT p.customer_id, p.amount, CASE 
+WHEN p.amount < 3.99 THEN 'sale_price'
+WHEN p.amount >= 3.99 THEN 'regularPrice'
+END AS sale_reg 
+
+FROM sakila.payment as P
+ORDER BY sale_reg;
+
+# pg 18 in powerpoint 
+SELECT 
+CASE WHEN staff_id = 1 THEN 'Mike Hillyer'
+WHEN staff_id = 2 THEN 'Jon Stephens'
+ELSE NULL 
+END AS 'staff names', r.rental_id, r.staff_id 
+FROM sakila.rental as r; 
+
+# pg 19 
+SELECT f.title, f.rating, CASE 
+WHEN f.rating IN ('NC-17','R') THEN 'adults only' 
+WHEN f.rating = 'PG-13' THEN 'parent suggested'
+WHEN f.rating IN ('G','PG') THEN 'kid friendly'
+END AS 'family rating'
+FROM sakila.film as f;
