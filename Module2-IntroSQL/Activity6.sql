@@ -2,7 +2,7 @@
 activity uses the fictional island of Basura and the MySQL sample databaseworld. */ 
 -- ----------------------------------------------------------------------------------------------------------------
 # activity 2.6.1
-# task 1 - Add basura's inforation to the country table in the world databse. 
+# task 1 - Add basura's information to the country table in the world databse. 
 INSERT INTO world.country 
 VALUES ('BAS', 'Basura', 'Oceania', 'Polynesia', 450.0, 2005, 65000, 80.0, 1300.0, 1150.0, 'Basura', 'Federal Republic', 'Auntie A.', NULL, ' ');
 
